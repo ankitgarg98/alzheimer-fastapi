@@ -31,7 +31,7 @@ const Index = () => {
       formData.append("file", selectedImage);
 
       // Replace with your actual FastAPI backend URL
-      const response = await fetch("http://localhost:8000/predict", {
+      const response = await fetch("https://alzheimer-fastapi.onrender.com/predict", {
         method: "POST",
         body: formData,
       });
