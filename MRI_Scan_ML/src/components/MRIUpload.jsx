@@ -17,7 +17,7 @@ import {
 
 // ✅ The API URL now points to your local server
 // ...existing code...
-const API_URL = "http://localhost:8000/predict";
+const API_URL = "https://alzheimer-fastapi.onrender.com/predict";
 // ...existing code...
 export default function MRIUpload() {
   const [dragActive, setDragActive] = useState(false);
